@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_event"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="@string/title_event" />
+
+    <item
+        android:id="@+id/navigation_nearby"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/title_nearby" />
+
+    <item
+        android:id="@+id/navigation_weather"
+        android:icon="@drawable/ic_cloud_black_24dp"
+        android:title="@string/title_weather" />
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="Booking" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/title_more" />
+
+</menu>

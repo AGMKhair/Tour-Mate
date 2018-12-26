@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".HomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--       <Button
+                       android:text="This is buttom"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/signInBtnId"
+                android:layout_margin="5dp"
+                android:background="?attr/buttoncolor"
+                android:layout_below="@id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Login"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/singUpBtnId"
+                android:layout_margin="5dp"
+                android:background="?attr/buttoncolor"
+                android:layout_alignRight="@id/linearLayout"
+                android:layout_below="@id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Sign Up"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.EventDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView
+
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/event_destinationNameTVId"
+                    android:hint="Destination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_weight=".5"
+                        android:id="@+id/event_toDateTVId"
+                        android:hint="To Date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_weight=".5"
+                        android:textAlignment="center"
+                        android:id="@+id/event_formDateTVId"
+                        android:hint="Form Date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/event_budgeTVId"
+                    android:hint="Budget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/event_details_id"
+                android:background="@drawable/ic_more_vert_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/event_details_tab_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextColor="@color/colorPrimary">
+
+      <!--  <android.support.design.widget.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Expensive" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Moment" />-->
+    </android.support.design.widget.TabLayout>
+
+
+    <!--<android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:id="@+id/tabLayoutId"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.design.widget.TabLayout>-->
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPagerId">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

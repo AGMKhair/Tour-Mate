@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_event">Event</string>
+    <string name="title_nearby">Near By</string>
+    <string name="title_weather">Weather</string>
+    <string name="title_more">More</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="details">The word "information" is used in many different ways. Originally, it comes from a word that meant to give a form to something. Information is something that people can learn, know about, or understand. For example, a newspaper contains information about the world.
+</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
